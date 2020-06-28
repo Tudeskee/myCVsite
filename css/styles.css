@@ -1,0 +1,201 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Gabriela', serif;
+  font-size: 1rem;
+}
+
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 3.25rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  /*padding-top: 100px;*/
+  line-height: 2;
+}
+
+h2{
+  font-family: 'Gabriela', serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Gabriela', serif;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #EAF6F6;
+  border-width: 0.3em 0 0 0;
+  margin: 85px auto 85px auto;
+  width: 3rem;
+  /*Her Code
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  widith: 4% (percentage better for when the web page is adjusted, such that it's contents adjusts accordingly)
+  margin: 100px auto;
+  */
+}
+
+.top-container{
+  background-color: #EAF6F6;
+  position: relative;
+  /*padding-top: 100px;*/
+  padding-top: 100px;
+  font-size: 1.5rem;
+}
+
+.top-cloud{
+  position: absolute;
+  /*left: 220px;*/
+  top: 50px;
+  right: 550px;
+}
+
+.buttom-cloud{
+  position: absolute;
+  left:500px;
+  /*buttom: 300px;*/
+}
+
+
+.h2-top-container{
+  font-family: 'Gabriela', serif;
+  color: #66BFBF;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+
+.pro{
+  text-decoration: underline;
+}
+
+.middle-container{
+  padding-top: 50px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 70px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.sysdesign{
+  margin: 180px 0 0 0;
+}
+
+.apartment{
+  float: left;
+  /*padding: 0 30px 30px 0;*/
+  margin-right: 20px;
+  width: 20%;
+}
+
+.inspwords{
+  float: right;
+  margin-left: 20px;
+  width: 23%;
+}
+
+.paragraph1-mid-container{
+  color: #40514E;
+  margin: auto 30% auto 30%;
+  line-height: 2;
+}
+
+.paragraph-mid-container{
+  color: #40514E;
+  margin-top: 5px;
+}
+
+.paragraph4-mid-container{
+  margin: 40px 30% 40px 30%;
+  /*
+  Her Code.
+  width: 40%
+  margin: 40px auto 60px;
+  */
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  font-family: 'Gabriela', serif;
+  font-size: 0.75rem;
+  height: 180px;
+  margin: 60px auto 0 auto;
+  /*
+  Her Code.
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  */
+}
+
+.footer-link{
+  color: #11999E;
+  font-size: 1rem;
+  font-weight: bold;
+  display: inline-block;
+  margin: 50px 25px 40px 25px;
+  text-decoration: none;
+  /*
+  Her Code.
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+  */
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+.copyright{
+  margin-top: 0;
+  color: #EAF6F6;
+}
+
+.cobika{
+  font-style: italic;
+}
+
+.btn {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 20px;
+  background-color: #66BFBF;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #FFFFFF 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #2bc4ad 1px;
+  background: #2bc4ad;
+  background-image: -webkit-linear-gradient(top, #2bc4ad, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #2bc4ad, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #2bc4ad, #2bc4ad);
+  background-image: -o-linear-gradient(top, #2bc4ad, #2bc4ad);
+  background-image: linear-gradient(to bottom, #2bc4ad, #2bc4ad);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
